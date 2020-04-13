@@ -1,4 +1,4 @@
-# Ellipsoidal Trust Region Methods for Neural Network Optimization
+# Adaptive Norms for Deep Learning with Regularized Newton Methods
 
 
 ## Installation
