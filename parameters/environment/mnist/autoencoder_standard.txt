@@ -1,0 +1,8 @@
+{"full_samples": 60000, "max_iterations":  50000, "test_every": 500, "full_loss_every_n_statistics": 1, "sample_size": 0.05, "dataset": "mnist", "learning_rate": 0.05, "method": "Adagrad", "statistics_every": 500, "model_name": "autoencoder", "model_seed": 10, "loss_fn": "CE","1st_order_optimizer": "Rmsprop",
+"test_batch_size": 2000,
+"grad_tol": 1e-20,
+"exact_solver": "alg736_restarted"}
+
+
+
+

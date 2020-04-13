@@ -1,0 +1,8 @@
+{"full_samples": 6000, "max_iterations": 50000, "test_every": 500, "full_loss_every_n_statistics": 1, "sample_size": 128, "dataset": "fashion_mnist", "statistics_every": 500, "model_name": "autoencoder", "model_seed": 10, "loss_fn": "MSE","1st_order_optimizer": "Adagrad",
+"test_batch_size": 2000,
+"grad_tol": 1e-20,
+"exact_solver": "alg736_restarted"}
+
+
+
+

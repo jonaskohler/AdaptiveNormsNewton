@@ -1,0 +1,16 @@
+gpustat
+torch
+sklearn
+numpy
+tqdm
+matplotlib
+seaborn
+tensorboardX
+termcolor
+simplejson
+tensorflow
+keras
+sh
+dropbox
+ipywidgets
+torchvision

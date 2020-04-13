@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d68d955b-e087-4847-903c-a5d1f6f405f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../execute_pivot_exp.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jokohler@mark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lipschitz/imgs_2048/lipsch_results_short_cifar_conv_maxlam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lipschitz/imgs_2048/lipsch_results_short_cifar_fc_maxlam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lipschitz/imgs_2048/lipsch_results_short_fashion_mnist_conv_maxlam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lipschitz/imgs_2048/lipsch_results_short_fashion_mnist_fc_maxlam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lipschitz/imgs_2048/lipsch_results_short_mnist_conv_maxlam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lipschitz/imgs_2048/lipsch_results_short_mnist_fc_maxlam.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lipschitz/lipsch_results_short.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/environment/fashion_mnist/conv_standard.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/environment/pivot_exp/conv_standard.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/environment/pivot_exp/fc_standard.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/conv/TR_rms_30k_nopivot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/conv/TR_rms_512_10pivot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/conv/TR_rms_512_nopivot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/conv/TR_rms_512_nopivot_fullfn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/fc/TR_rms_30k_nopivot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/fc/TR_rms_512_10pivot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/fc/TR_rms_512_nopivot.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parameters/method/pivot_exp/fc/TR_rms_512_nopivot_fullfn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pivot_exp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tr_intuition_plot_with_GN.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diagdom.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../diagdom.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../diagonal_dominance.py" beforeDir="false" afterPath="$PROJECT_DIR$/../diagonal_dominance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../evaluate_experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/../evaluate_experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_exp.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_exp.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_exp_cifar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_exp_cifar.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_exp_fashion_mnist.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_exp_fashion_mnist.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_exp_mnist.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_exp_mnist.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_fashion_mnist_autoenc_exp.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_grid_ada.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_grid_ada.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_grid_cifar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_grid_cifar.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_grid_rms.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_grid_rms.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_grid_sgd.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_grid_sgd.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../execute_inter_exp_handler.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../execute_inter_exp_handler.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../experiment_loader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../experiment_loader.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../get_gpu_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/../get_gpu_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grid_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/../grid_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../grid_search_new.py" beforeDir="false" afterPath="$PROJECT_DIR$/../grid_search_new.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hessian_vector.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hessian_vector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lipschitz.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lipschitz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lipschitz/lipsch_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../lipschitz/lipsch_results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/environment/mnist/autoencoder.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/environment/mnist/autoencoder_standard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/cifar/conv/Adagrad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/cifar/conv/Adagrad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/cifar/conv/Rmsprop.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/cifar/conv/Rmsprop.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/cifar/conv/TR_adagrad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/cifar/conv/TR_adagrad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/cifar/conv/TR_rms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/cifar/conv/TR_rms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/cifar/conv/TR_uniform.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/cifar/conv/TR_uniform.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/Adagrad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/Adagrad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/Rmsprop.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/Rmsprop.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/SGD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/SGD.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/TR_adagrad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/TR_adagrad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/TR_rms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/TR_rms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/TR_uniform.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/fashion_mnist/conv/TR_uniform.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/autoenc/Adagrad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/autoencoder/Adagrad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/autoenc/Rmsprop.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/autoencoder/Rmsprop.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/autoenc/SGD.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/autoencoder/SGD.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/autoenc/TR_adagrad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/autoencoder/TR_adagrad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/autoenc/TR_rms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/autoencoder/TR_rms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/autoenc/TR_uniform.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/autoencoder/TR_uniform.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/conv/TR_adagrad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/conv/TR_adagrad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/conv/TR_rms.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/conv/TR_rms.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../parameters/method/mnist/conv/TR_uniform.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../parameters/method/mnist/conv/TR_uniform.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plot_experiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/../plot_experiment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tr_intuition_plot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tr_intuition_plot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../trust_region.py" beforeDir="false" afterPath="$PROJECT_DIR$/../trust_region.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-194023742">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="py" value="3017" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="3017" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exactTRsolver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6783">
+              <caret line="509" column="17" selection-start-line="509" selection-start-column="17" selection-end-line="509" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plotter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+              <folding>
+                <element signature="e#20#41#0" expanded="true" />
+                <marker date="1548251808415" expanded="true" signature="458:464" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hessian_vector.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1241">
+              <caret line="73" column="84" selection-start-line="73" selection-start-column="84" selection-end-line="73" selection-end-column="84" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gltr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2295">
+              <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sgd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#109#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trust_region.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3094">
+              <caret line="182" column="35" selection-start-line="182" selection-start-column="35" selection-end-line="182" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+                <marker date="1548248561823" expanded="true" signature="551:553" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model_setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Hv_exact</find>
+      <find>load_ci</find>
+      <find>sampling_start_seed</find>
+      <find>MNISTAu</find>
+      <find>self.d</find>
+      <find>self.machine</find>
+      <find>Parameter</find>
+      <find>plot_loss_from_opts</find>
+      <find>exactTR</find>
+      <find>mnist</find>
+      <find>.cuda</find>
+      <find>hot_start_</find>
+      <find>exact_sol</find>
+      <find>machine_pre</find>
+      <find>log_f</find>
+      <find>print</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/hessian_vector.py" />
+        <option value="$USER_HOME$/Library/Caches/com.binarynights.ForkLift-3/FileCache/F49226D2-A756-481C-968C-9679E75217A0/setup.py" />
+        <option value="$PROJECT_DIR$/../evaluate_experiments.py" />
+        <option value="$PROJECT_DIR$/model_setup.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/plotter.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/exactTRsolver.py" />
+        <option value="$PROJECT_DIR$/sgd.py" />
+        <option value="$PROJECT_DIR$/trust_region.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1498" />
+    <option name="y" value="-1158" />
+    <option name="width" value="1858" />
+    <option name="height" value="2137" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="_DEMO" type="b2602c69:ProjectViewProjectNode" />
+              <item name="_DEMO" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d68d955b-e087-4847-903c-a5d1f6f405f4" name="Default Changelist" comment="" />
+      <created>1548164046979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548164046979</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1498" y="-1158" width="1858" height="2137" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21585903" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1421">
+          <caret line="274" column="22" lean-forward="true" selection-start-line="247" selection-end-line="274" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../make_plots.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="15" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/com.binarynights.ForkLift-3/FileCache/F49226D2-A756-481C-968C-9679E75217A0/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="142" column="41" selection-start-line="142" selection-start-column="41" selection-end-line="142" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../trust_region.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="379" column="13" selection-start-line="379" selection-start-column="13" selection-end-line="379" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="20" selection-start-line="79" selection-start-column="20" selection-end-line="79" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../evaluate_experiments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1124">
+          <caret line="391" column="57" selection-start-line="391" selection-start-column="57" selection-end-line="391" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exactTRsolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6783">
+          <caret line="509" column="17" selection-start-line="509" selection-start-column="17" selection-end-line="509" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#20#41#0" expanded="true" />
+            <marker date="1548251808415" expanded="true" signature="458:464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hessian_vector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="84" selection-start-line="73" selection-start-column="84" selection-end-line="73" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gltr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sgd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#109#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trust_region.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="182" column="35" selection-start-line="182" selection-start-column="35" selection-end-line="182" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1548248561823" expanded="true" signature="551:553" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

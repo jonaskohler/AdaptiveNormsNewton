@@ -1,0 +1,3 @@
+{"learning_rate": 0.005, 
+"method": "Adagrad",
+"sample_size": 128}

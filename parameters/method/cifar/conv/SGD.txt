@@ -1,0 +1,4 @@
+{"learning_rate": 0.005, 
+"method": "SGD",
+"sample_size": 128,
+"max_time": 3160}
