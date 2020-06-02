@@ -13,7 +13,7 @@
 3. Activate the virtual environment\
 `source venv_etr/bin/activate`
 
-4. install etr and its requirements by running the following command inside the etr root folder\
+4. install etr and its requirements by running the following command inside the root folder\
 `pip install -r requirements.txt`
 
 5. Install Jupyter Kernel\
