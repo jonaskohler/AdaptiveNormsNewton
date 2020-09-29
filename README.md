@@ -1,4 +1,8 @@
 # Adaptive Norms for Deep Learning with Regularized Newton Methods
+In this paper, we propose second-order variants of adaptive gradient methods like Adam and RMSProp. We theoretically prove convergence and show their empirical superiority over spherical trust region methods.
+
+
+![Empirical results](/intro.png)
 
 
 ## Installation
